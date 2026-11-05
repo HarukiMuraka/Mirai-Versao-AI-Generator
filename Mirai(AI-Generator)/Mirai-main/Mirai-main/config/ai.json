@@ -1,0 +1,36 @@
+{
+  "_comentario": "Configuração de IA da Mirai. Edite para ativar providers.",
+  "provider_priority": [
+    "gemini",
+    "ollama",
+    "sair",
+    "claude",
+    "openai",
+    "offline"
+  ],
+  "claude": {
+    "_info": "Coloque sua chave em config/claude_key.txt OU aqui.",
+    "api_key": "",
+    "model": "claude-haiku-4-5-20251001"
+  },
+  "gemini": {
+    "_info": "Coloque sua chave em config/gemini_key.txt OU aqui.",
+    "api_key": "",
+    "model": "gemini-1.5-flash"
+  },
+  "openai": {
+    "_info": "Coloque sua chave em config/openai_key.txt OU aqui.",
+    "api_key": "",
+    "model": "gpt-4o-mini"
+  },
+  "ollama": {
+    "_info": "Roda localmente. Instale em https://ollama.ai",
+    "model": "qwen2.5:3b",
+    "base_url": "http://localhost:11434"
+  },
+  "image": {
+    "_info": "Configuração do gerador de imagens.",
+    "provider": "stable_diffusion",
+    "sd_url": "http://127.0.0.1:7860"
+  }
+}

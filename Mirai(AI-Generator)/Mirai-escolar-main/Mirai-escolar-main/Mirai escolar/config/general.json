@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "language": "pt-BR",
+  "user_name": "Usuário",
+  "startup_mode": "conversation",
+  "enable_vtuber": true,
+  "enable_voice": true,
+  "log_level": "INFO"
+}

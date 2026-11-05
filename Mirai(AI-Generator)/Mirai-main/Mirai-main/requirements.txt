@@ -1,0 +1,53 @@
+# ============================================================
+# MIRAI v2.0 — requirements.txt
+# Python 3.10+
+# ============================================================
+
+# ── CORE (obrigatórios) ──────────────────────────────────────
+colorama>=0.4.6
+requests>=2.31.0
+beautifulsoup4>=4.12.2
+python-dotenv>=1.0.0
+Pillow>=10.0.0
+
+# ── VOZ ─────────────────────────────────────────────────────
+gTTS>=2.4.0
+pygame>=2.5.0
+SpeechRecognition>=3.10.0
+# PyAudio — instale manualmente se der erro:
+#   Windows: pip install pipwin && pipwin install pyaudio
+#   Linux:   sudo apt install python3-pyaudio
+#   macOS:   brew install portaudio && pip install pyaudio
+
+# ── AUTOMAÇÃO ────────────────────────────────────────────────
+pyautogui>=0.9.54
+keyboard>=0.13.5
+psutil>=5.9.6
+
+# ── INTERFACE ────────────────────────────────────────────────
+rich>=13.7.0
+
+# ── IA — PROVIDERS (descomente o que usar) ───────────────────
+
+# Google Gemini
+# google-generativeai>=0.5.0
+
+# Anthropic Claude (opcional — usa requests diretamente)
+# anthropic>=0.25.0
+
+# OpenAI (opcional — usa requests diretamente)
+# openai>=1.0.0
+
+# ── VTUBER (opcional) ────────────────────────────────────────
+# pythonosc>=1.8.0
+
+# ── STREAMING (opcional) ─────────────────────────────────────
+# pytchat>=0.5.0        # YouTube Live Chat
+# twitchio>=2.0.0       # Twitch
+
+# ── IMAGEM (opcional) ────────────────────────────────────────
+# diffusers>=0.24.0     # Stable Diffusion local via Python
+# torch>=2.0.0          # requer GPU para performance
+
+# ── INSTALAÇÃO RÁPIDA (core + voz) ──────────────────────────
+# pip install colorama requests beautifulsoup4 python-dotenv Pillow gTTS pygame SpeechRecognition pyautogui keyboard psutil rich

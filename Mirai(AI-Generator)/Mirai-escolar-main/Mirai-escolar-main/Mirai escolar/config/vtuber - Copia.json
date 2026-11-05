@@ -1,0 +1,17 @@
+{
+  "engine": "vseeface",
+  "tracking": {
+    "enable_face": true,
+    "enable_mouth": true,
+    "smoothing": 0.7
+  },
+  "expressions": {
+    "idle": "neutral",
+    "talking": "happy",
+    "listening": "curious"
+  },
+  "vmc_protocol": {
+    "host": "127.0.0.1",
+    "port": 39539
+  }
+}

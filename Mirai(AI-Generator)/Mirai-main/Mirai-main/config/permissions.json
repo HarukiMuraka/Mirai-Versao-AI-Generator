@@ -1,0 +1,12 @@
+{
+  "pc_control": {
+    "enabled": false,
+    "allow_mouse": false,
+    "allow_keyboard": true,
+    "allow_apps": true,
+    "require_confirmation": true
+  },
+  "emergency": {
+    "stop_word": "parar agora"
+  }
+}

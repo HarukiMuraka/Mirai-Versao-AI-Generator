@@ -1,0 +1,2 @@
+# Cole sua chave do Grok aqui (sem # na frente, sem aspas) — OPCIONAL
+# Obtenha em: https://console.x.ai

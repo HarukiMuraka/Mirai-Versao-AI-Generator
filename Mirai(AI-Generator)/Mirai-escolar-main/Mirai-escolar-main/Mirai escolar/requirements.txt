@@ -1,0 +1,75 @@
+
+pyttsx3>=2.90
+SpeechRecognition>=3.10.0
+edge-tts>=6.1.0  # Para voz mais natural (opcional)
+gtts>=2.5.0
+pygame>=2.5.0
+
+# Interface
+colorama>=0.4.6
+rich>=13.7.0
+
+# Automação e Sistema
+pyautogui>=0.9.54
+keyboard>=0.13.5
+psutil>=5.9.6
+
+# Visão e Processamento de Imagem
+Pillow>=10.0.0
+opencv-python>=4.8.0
+pytesseract>=0.3.10
+numpy>=1.24.0
+
+# Web e Pesquisa
+requests>=2.31.0
+beautifulsoup4>=4.12.2
+
+# IA e ML (opcional - para recursos avançados)
+# torch>=2.0.0  # Descomente se quiser usar modelos locais
+# transformers>=4.30.0  # Descomente para NLP avançado
+
+# Streaming (opcional)
+# pytchat  # Para YouTube
+# twitchio  # Para Twitch
+
+# Utilitários
+python-dotenv>=1.0.0
+asyncio>=3.4.3
+
+# Voz e Áudio
+pyttsx3>=2.90
+SpeechRecognition>=3.10.0
+edge-tts>=6.1.0  # Para voz mais natural (opcional)
+gtts>=2.5.0
+pygame>=2.5.0
+
+# Interface
+colorama>=0.4.6
+rich>=13.7.0
+
+# Automação e Sistema
+pyautogui>=0.9.54
+keyboard>=0.13.5
+psutil>=5.9.6
+
+# Visão e Processamento de Imagem
+Pillow>=10.0.0
+opencv-python>=4.8.0
+pytesseract>=0.3.10
+numpy>=1.24.0
+
+# Web e Pesquisa
+requests>=2.31.0
+beautifulsoup4>=4.12.2
+
+# IA e ML (opcional - para recursos avançados)
+# torch>=2.0.0  # Descomente se quiser usar modelos locais
+# transformers>=4.30.0  # Descomente para NLP avançado
+
+# Streaming (opcional)
+# pytchat  # Para YouTube
+# twitchio  # Para Twitch
+
+# Utilitários
+python-dotenv>=1.0.0
+asyncio>=3.4.3

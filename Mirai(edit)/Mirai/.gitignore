@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Mirai específico
+data/cache/*
+data/memory/*
+data/logs/*
+!data/.gitkeep
+!data/*/.gitkeep
+
+config/gemini_key.txt
+config/local_*.json
+.env
+
+# Temporários
+*.tmp
+*.log
+temp/
+temp_audio/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Roms
+roms/*

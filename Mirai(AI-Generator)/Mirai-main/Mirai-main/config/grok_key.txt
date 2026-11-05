@@ -1,0 +1,3 @@
+# Cole sua chave Gemini aqui (sem # na frente)
+# Obtenha GRÁTIS em: https://aistudio.google.com/app/apikey
+SUA_CHAVE_AQUI

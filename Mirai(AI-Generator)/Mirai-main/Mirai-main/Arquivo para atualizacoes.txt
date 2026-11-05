@@ -1,0 +1,24 @@
+Poderia me ajudar a fazer a mirai funcionar, pois ela nao esta conseguindo utilizar o gemini dando um erro que era"[INFO] Iniciando sistemas...
+
+→ Gerenciador de contexto... ✓
+→ Máquina de estados... ✓
+→ Motor de IA...   🔍 Verificando providers de IA...
+
+  ✗ Gemini falhou: erro HTTP 404
+
+  ✓ Ollama ativo! (modelo: llama3, 100% local)" como principal, alem disso queria que me ajudase a fazer ela fucionar com o gemini, ou dependendo o grok, ou atee mesmo os dois, e tambem, temos esse erro aqui "➤ Opção: 4
+Providers: gemini, claude, openai, ollama, offline
+Provider: gemini
+[ERRO CRÍTICO] 'MiraiAI' object has no attribute '_load_provider'
+Traceback (most recent call last):
+  File "C:\Mirai\main.py", line 283, in main
+    await mirai.run()
+  File "C:\Mirai\main.py", line 203, in run
+    await self.menu.show()
+  File "C:\Mirai\interface\menu.py", line 101, in show
+    elif choice == "6": await self._knowledge_menu()
+  File "C:\Mirai\interface\menu.py", line 268, in _knowledge_menu
+    print(f"{Fore.GREEN}{km.set_provider(prov)}{Style.RESET_ALL}")
+  File "C:\Mirai\features\knowledge_manager.py", line 144, in set_provider
+    new_provider = self.ai._load_provider(provider)
+AttributeError: 'MiraiAI' object has no attribute '_load_provider'" qu nao me deixa trocar ela, poderia me ajudar com isso.

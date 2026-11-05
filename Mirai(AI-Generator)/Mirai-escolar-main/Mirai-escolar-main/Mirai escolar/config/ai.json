@@ -1,0 +1,18 @@
+{
+  "model": {
+    "name": "local",
+    "type": "rules",
+    "temperature": 0.8
+  },
+  "personality": {
+    "name": "Mirai",
+    "style": "casual",
+    "humor_level": 0.7,
+    "use_japanese": true,
+    "japanese_frequency": 0.2
+  },
+  "memory": {
+    "short_term_size": 10,
+    "context_window": 5
+  }
+}
